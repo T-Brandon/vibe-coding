@@ -22,6 +22,8 @@ __pycache__/
 output/
 cache/
 logs/
+# output 폴더 중 코드 결과만 커밋 예외로
+!output/*.py
 
 # ----- Jupyter / Temp -----
 .ipynb_checkpoints/
