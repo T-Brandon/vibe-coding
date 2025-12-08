@@ -1,29 +1,24 @@
-# ----- Python 가상환경 -----
+# ----- Python 환경 -----
 venv/
 __pycache__/
 *.pyc
 
-# ----- 환경 변수 및 보안 -----
+# ----- 환경 변수 / 보안 -----
 .env
 *.key
 *.pem
 
-# ----- 로그 / 임시 파일 -----
-*.log
-*.tmp
-*.bak
-
-# ----- 시스템 / IDE 설정 -----
+# ----- IDE / 편집기 -----
 .vscode/
 .idea/
 .DS_Store
 
-# ----- 모델 출력 / 캐시 -----
-output/
-cache/
+# ----- 로그 / 임시 -----
+*.log
 logs/
+cache/
+
+# ----- 모델 출력 -----
+output/
 # output 폴더 중 코드 결과만 커밋 예외로
 !output/*.py
-
-# ----- Jupyter / Temp -----
-.ipynb_checkpoints/
